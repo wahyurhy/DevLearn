@@ -1,0 +1,36 @@
+.header {
+	background-color: red;
+	height: 80px;
+}
+
+.main {
+	background-color: yellow;
+	height: 600px;
+}
+
+.footer {
+	background-color: green;
+	height: 120px;
+}
+
+h1 {
+	color : white;
+	font-size: 40px;
+	font-family: serif;
+}
+
+p {
+	color : blue;
+	font-size: 40px;
+	font-family: "Lucida Grande";
+	background-color: #ffd800;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+.selected {
+	color: red;
+}

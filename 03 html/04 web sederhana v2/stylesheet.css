@@ -1,0 +1,82 @@
+.header {
+	height: 100px;
+	background-color: #345047;
+	color: white;
+
+}
+
+.header-logo {
+	float: left;
+	padding: 15px;
+	padding-left: 40px
+}
+
+.header li {
+	float: left;
+	padding: 40px 20px;
+}
+
+.main {
+	height: 1000px;
+	background-color: #F5DFED;
+}
+
+.contents-title {
+	padding: 20px 50px;
+}
+
+.contents-title h3 {
+	border-bottom: 2px solid black;
+}
+
+.footer {
+	height: 180px;
+	background-color: #0A5280;
+	color: white;
+}
+
+.footer-logo {
+	float: left;
+	font-size: 25px;
+	padding: 30px 40px 50px 40px;
+}
+
+.footer-list {
+	float: right;
+	padding: 30px 40px 50px 40px;
+}
+
+.footer-list li {
+	padding: 5px;
+}
+
+img {
+	width: 20%;
+	display: block;
+	margin: auto;
+}
+
+li {
+	list-style: none;
+}
+
+p {
+	padding-left: 30px;
+}
+
+input, textarea {
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+textarea {
+	height: 80px;
+}
+
+.form-submit {
+	width: 80px;
+	height: 40px;
+	background-color: #F5DFED;
+}

@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	font-family: "Lucida GrandeS"
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.top-wrapper {
+	border: 10px solid black;
+	padding: 100px 0 100px 0;
+	background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+	background-size: cover;
+}

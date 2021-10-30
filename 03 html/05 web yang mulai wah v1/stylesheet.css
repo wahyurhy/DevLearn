@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grande";
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-wrapper {
+	padding-top: 180px;
+	padding-bottom: 100px;
+	color: white;
+	background-image: url(https://prog-8.com/images/html/advanced/top_en.png); /*buat gambar background*/
+	background-size: cover; /*ini buat gambarnya jadi full*/
+	text-align: center; /*biar teks dan segala contentnya ketengah gitu*/
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px; /*biar teks jadi renggang gitu*/
+	margin-bottom: 10px;
+}
+
+.top-wrapper p {
+	opacity: 0.7; /*biar transparan*/
+	margin-bottom: 3px;
+}
+
+.btn {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	color: white;
+	display: inline-block; /*biar bikin kotak didalem gitu, biar jadi tombol*/
+	opacity: 0.8;
+	border-radius: 4px;/*biar ada sudut yang tumpul gitu*/
+}
+
+.btn:hover { /*  :hover berguna buat jadi transparan saat cursornya nyentuh buttonnya gitu*/
+	opacity: 1;
+}
+
+.signup {
+	background-color: #239b76;
+}
+
+.facebook {
+	background-color: #3b5998;
+	margin-right: 10px;
+}
+
+.twitter {
+	background-color: #55acee;
+}
+
+.btn-wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-wrapper p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fab { /* ini class, dipake buat logo*/
+	margin-right: 5px;
+}
+
+header { /* ini tuh sebagai tag ya, jadi ga perlu pake titik lagi kayak pake class*/
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9); /* rgba itu buat bikin background transparan tanpa membuat elemen lainnya ikut transparan*/
+	position: fixed; /* posisi dari objeknya jadi di lock, jadi ngga akan gerak walau di scroll */
+	top: 0; /* top disini itu jadinya posisinya berada di si 0 */
+	z-index: 10; /* z-index tuh gunanya biar posisi dari objek ini berada di layer lebih atas atau lebih bawah, semakin besar nilai z-index nya makin luar objeknya, jadi objeknya makin ke layer atas */
+}
+
+.logo {
+	width: 124px;
+	margin-top: 20px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all 0.5s; /* biar pas cursor kenain objeknya jadi ngga langsung berubah gitu, jadi dikasih jeda selama beberapa detik dulu */
+}
+
+.header-right:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+	line-height: 65px; /* ini berfungsi supaya teks dari elemennya jadi ketengah secara vertikal */
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	display: block; /* biar tombolnya pas dikenain cursor jadi bisa diklik, bukan cuma di bagian teks linknya aja */
+}
+
+.lesson-wrapper {
+	height: 500px;
+	padding-bottom: : 80px;
+	background-color: #f7f7f7;
+	text-align: center; /* jadi ketengah semua objek yang ada di class ini */
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal; /* buat ngatur ketebalan dari font, kalo "normal" berarti ketebalannya tidak "bold" */
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative; /* biar objeknya jadi bisa ngatur inherit objek di child dari parentnya */
+}
+
+.lesson-icon p {
+	position: absolute; /* jadi posisi absolutenya bisa diatur dibagian objek parent yang diturunin dari class parent-nya (dalam hal ini si lesson-icon) */
+	top: 75px;
+	width: 100%; /* objeknya jadi ketengah */
+	color: white;
+}
+
+.txt-contents {
+	width: 80%;
+	display: inline-block; /* objeknya jadi ke tengah */
+	margin-top: 20px;
+	font-size: 15px;
+	color: #b3aeb5;
+}
+
+.message-wrapper {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.message {
+	background-color: #5dca88;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	cursor: pointer; /* nanti bakal berubah yang cursornya jadi tangan lagi nunjuk [ada juga buat jadi text, "text"]*/
+	box-shadow: 0px 7px #1a7940; /* ini buat bikin bayangan objek */
+}
+
+.heading h3 {
+	font-weight: normal;
+}
+
+.message:active {
+	box-shadow: none; /* buat bayangannya jadi none active, jadi bayangannya bakal ilang */
+	position: relative; /* untuk memosisikan element relatif terhadap posisi normalnya. */
+	top: 7px; /* posisisnya disamain ke bayangan, jadi kesannya kayak diteken tombolnya */
+}
+
+footer img {
+	width: 125px;
+}
+
+footer p {
+	color: #b3aeb5;
+	font-size: 12px;
+}
+
+footer {
+	padding-top: 30px;
+}
