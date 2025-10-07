@@ -117,6 +117,23 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Style tambahan untuk menu responsive */
+.header-right.active {
+  display: block;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: absolute;
+  top: 65px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header-right.active a {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
 /* Tambahkan CSS untuk menu-icon */
 .menu-icon {
   color:  white;
@@ -157,7 +174,7 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
+  top: 37%;
   width: 100%;
   color: white;
 }

@@ -90,5 +90,14 @@
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
+
+    <script>
+      const menuIcon = document.querySelector('.menu-icon');
+      const headerRight = document.querySelector('.header-right');
+
+      menuIcon.addEventListener('click', () => {
+        headerRight.classList.toggle('active');
+      });
+    </script>
   </body>
 </html>
